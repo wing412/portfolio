@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wing Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body class="portfolio-body">
+        
+        <div class="header-container">
+            <div class="header-topic gradient-text">
+                portfolio
+            </div>
+            <div class="header-menu">
+                <div class="menu-container">
+                    <a class="menu-item" data-scroll="about">About</a>
+                    <a class="menu-item" data-scroll="skills">Skills</a>
+                    <a class="menu-item" data-scroll="education">Education</a>
+                    <a class="menu-item" data-scroll="experience">Experience</a>
+                    <a class="menu-item" data-scroll="project">Project</a>
+                </div>
+            </div>
+            <div class="mobile-header-menu">
+                <div class="menu-container-mobile">
+                    <div class="menu-button" id="menu-button">
+                        <div class="menu-button-bar1"></div>
+                        <div class="menu-button-bar2"></div>
+                        <div class="menu-button-bar3"></div>
+                    </div>
+                </div>
+                <div id="menu-page-container" class="hidden">
+                    <div class="menu-page-items">
+                        <a class="menu-item" data-scroll="about">About</a>
+                        <a class="menu-item" data-scroll="skills">Skills</a>
+                        <a class="menu-item" data-scroll="education">Education</a>
+                        <a class="menu-item" data-scroll="experience">Experience</a>
+                        <a class="menu-item" data-scroll="project">Project</a>
+                    </div>
+                    <div class="menu-contacts-container">
+                        <a class="contact-button"
+                            href="mailto: wing412.ca@gmail.com" target="_blank">
+                            <img src="./assets/images/icons/email.png" alt="email">
+                        </a>
+                        <a class="contact-button"
+                            href="tel: +1(416)8247821" target="_blank">
+                            <img src="./assets/images/icons/phone.png" alt="phone">
+                        </a>
+                        <a class="contact-button"
+                            href="https://www.linkedin.com/in/yuen-wing-chan-a027631b5/" target="_blank">
+                            <img src="./assets/images/icons/linkedin.png" alt="linkedin">
+                        </a>
+                        <a class="contact-button"
+                            href="./assets/images/icons/adobe.png" target="_blank">
+                            <img src="./assets/images/icons/adobe.png" alt="adobe">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-container">
+            <section id="about">
+                <div class="about-container">
+                    <div class="about-user">
+                        <div class="about-name">
+                            <span>Yuen Wing</span>
+                            <span>Chan</span>
+                        </div>
+                        <div class="subTitle">
+                            UXUI DESIGNER / GRAPHIC DESIGNER
+                        </div>
+                        <div class="breakline"></div>
+                        <div class="action-btn">
+                            <button id="view-portfolio-btn" class="primary-action-btn" data-url="./assets/doc/portfolio.pdf">
+                                view portfolio
+                            </button>
+                            <button id="view-skills-btn" class="secondary-action-btn">
+                                view skill
+                            </button>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="./assets/images/theme2/about_uxui.png" alt="background image">
+                    </div>
+                </div>
+                <div class="contacts-container">
+                    <a class="contact-button"
+                        href="mailto: wing412.ca@gmail.com" target="_blank">
+                        <img src="./assets/images/icons/email.png" alt="email">
+                    </a>
+                    <a class="contact-button"
+                        href="tel: +1(416)8247821" target="_blank">
+                        <img src="./assets/images/icons/phone.png" alt="phone">
+                    </a>
+                    <a class="contact-button"
+                        href="https://www.linkedin.com/in/yuen-wing-chan-a027631b5/" target="_blank">
+                        <img src="./assets/images/icons/linkedin.png" alt="linkedin">
+                    </a>
+                    <a class="contact-button"
+                        href="./assets/images/icons/adobe.png" target="_blank">
+                        <img src="./assets/images/icons/adobe.png" alt="adobe">
+                    </a>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="section-title-container">
+                    <h1>Skills</h1>
+                    <div class="breakline"></div>
+                </div>
+                <div id="skill-container" class="skill-container">
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/figma.png" alt="Figma">
+                            </div>
+                            <div class="skill-name">
+                                Figma
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/adobe_ai.png" alt="Adobe Illustrator">
+                            </div>
+                            <div class="skill-name">
+                                Adobe Illustrator
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/adobe_ps.png" alt="Adobe Photoshop">
+                            </div>
+                            <div class="skill-name">
+                                Adobe Photoshop
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/adobe_id.png" alt="Adobe Indesign">
+                            </div>
+                            <div class="skill-name">
+                                Adobe Indesign
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/adobe_xd.png" alt="Adobe XD">
+                            </div>
+                            <div class="skill-name">
+                                Adobe XD
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/adobe_pr.png" alt="Adobe Premiere Pro">
+                            </div>
+                            <div class="skill-name">
+                                Adobe Premiere Pro
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/adobe_ae.png" alt="Adobe After Effect">
+                            </div>
+                            <div class="skill-name">
+                                Adobe After Effect
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-grid gradient-grid">
+                        <div class="skill-content">
+                            <div class="skill-image">
+                                <img src="./assets/skills/ms_office.png" alt="Microsoft Office">
+                            </div>
+                            <div class="skill-name">
+                                Microsoft Office
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="section-title-container">
+                    <h1>Education</h1>
+                    <div class="breakline"></div>
+                </div>
+                <div class="education-container">
+                    <div class="image-container">
+                        <img src="./assets/images/theme2/education.png" alt="Education">
+                    </div>
+                    <div class="content-container">
+                        <div class="education-grid gradient-grid">
+                            <div class="education-period">
+                                2017 - 2019
+                            </div>
+                            <div class="education-name gradient-text">
+                                City University of Hong Kong
+                            </div>
+                            <div class="education-description">
+                                Bachelor of Social Sciences in Asian and International Studies with Upper Second Class Honors
+                            </div>
+                        </div>
+                        <div class="education-grid gradient-grid">
+                            <div class="education-period">
+                                2015 - 2017
+                            </div>
+                            <div class="education-name gradient-text">
+                                Community College of City University
+                            </div>
+                            <div class="education-description">
+                                Associate of Business Administration in General Management with Distinction
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <div class="section-title-container">
+                    <h1>Experience</h1>
+                    <div class="breakline"></div>
+                </div>
+                <div class="experience-container">
+                    <div class="experience-grid gradient-grid">
+                        <div class="experience-header">
+                            <div class="experience-title gradient-text">
+                                Junior UXUI Designer
+                            </div>
+                            <div class="experience-period">
+                                Feb 2023 - Mar 2022
+                            </div>
+                        </div>
+                        <div class="experience-company">
+                            DigiDumpling Limited
+                        </div>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Understand user requirements and create information architecture to ensure effective and smooth user experience</li>
+                                <li>Create low-fidelity wireframes before designing user interface</li>
+                                <li>Design website, mobile app and software dashboard user interface</li>
+                                <li>Prepare prototype to present the user flow and interaction design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-grid gradient-grid">
+                        <div class="experience-header">
+                            <div class="experience-title gradient-text">
+                                Graphic Designer
+                            </div>
+                            <div class="experience-period">
+                                Feb 2021 - Dec 2021
+                            </div>
+                        </div>
+                        <div class="experience-company">
+                            Acc Biotech Limited
+                        </div>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Prepare digital materials of social media</li>
+                                <li>Create website banners and retouch product photos</li>
+                                <li>Prepare printing materials for promoting the brand</li>
+                                <li>Develop new brand (Logo, product package, advertising materials)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-grid gradient-grid">
+                        <div class="experience-header">
+                            <div class="experience-title gradient-text">
+                                Junior Graphic Designer
+                            </div>
+                            <div class="experience-period">
+                                Nov 2019 - Dec 2020
+                            </div>
+                        </div>
+                        <div class="experience-company">
+                            Come Know (Asia) Limited
+                        </div>
+                        <div class="experience-description">
+                            <ul>
+                                <li>Responsible for creating inhouse website banner</li>
+                                <li>Design graphic materials of social media</li>
+                                <li>Create motion graphic storyboards</li>
+                                <li>Prepare artworks for clients according to their needs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="project">
+                <div class="section-title-container">
+                    <h1>Project</h1>
+                    <div class="breakline"></div>
+                </div>
+
+                <div class="project-type-container">
+                    <button class="project-type-btn selected-project-type" id="project-type-all">All</button>
+                    <button class="project-type-btn" id="project-type-uxui">UXUI Design</button>
+                    <button class="project-type-btn" id="project-type-graphic">Graphic Design</button>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-grid-item project-grid-item-uxui" 
+                        id="project-grid-0" 
+                        data-id="0"
+                        data-type="uxui"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/BDA_mockup.jpg" alt="BDA Banking app">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">BDA Banking app</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-uxui" 
+                        id="project-grid-1" 
+                        data-id="1"
+                        data-type="uxui"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/BioGene_mockup.jpg" alt="BioGene Service ticket system">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">BioGene Service ticket system</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-uxui" 
+                        id="project-grid-2" 
+                        data-id="2"
+                        data-type="uxui"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/DayDayCook_mockup.jpg" alt="Daydaycook app">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">Daydaycook app</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-uxui" 
+                        id="project-grid-3" 
+                        data-id="3"
+                        data-type="uxui"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/George Patrick_mockup.jpg" alt="George Patrick e-commerce website">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">George Patrick e-commerce website</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-uxui" 
+                        id="project-grid-4" 
+                        data-id="4"
+                        data-type="uxui"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/Reuteri_mockup.jpg" alt="Reuteri informative website">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">Reuteri informative website</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-uxui" 
+                        id="project-grid-5" 
+                        data-id="5"
+                        data-type="uxui"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/TAB_mockup.jpg" alt="Taketab app">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">Taketab app</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-graphic" 
+                        id="project-grid-7" 
+                        data-id="7"
+                        data-type="graphic"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/Sunlife.jpg" alt="Sunlife - Internal training video storyboard">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">Sunlife - Internal training video storyboard</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-graphic" 
+                        id="project-grid-7" 
+                        data-id="7"
+                        data-type="graphic"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/Microsoft.jpg" alt="Microsoft - Microsoft power platform promotional video storyboard">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">Microsoft - Microsoft power platform promotional video storyboard</div>
+                        </div>
+                    </div>
+                    <div class="project-grid-item project-grid-item-graphic" 
+                        id="project-grid-8" 
+                        data-id="8"
+                        data-type="graphic"
+                        data-asset-count="2">
+                        <div class="project-grid-image">
+                            <img src="./assets/projects/cover/PowerSoul.jpg" alt="Hong Kong 2022 Power Soul - Social Media Post">
+                        </div>
+                        <div class="project-grid-layer">
+                            <div class="project-grid-name">Hong Kong 2022 Power Soul - Social Media Post</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scroll-to-top" id="scroll-to-top">
+                    <i class="fa-solid fa-arrow-up gradient-text"></i>
+                </div>
+            </section>
+
+            <div id="spotlight-1" class="spotlight"></div>
+        </div>
+    </body>
+</html>
