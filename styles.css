@@ -510,6 +510,11 @@ img {
 .experience-description ul {
     list-style: unset;
     padding: 1rem;
+    margin: 0;
+}
+
+.experience-description .experience-topic {
+    margin-top: 1rem;
 }
 
 #project {
